@@ -1,4 +1,5 @@
 FROM docker/whalesay:latest
-RUN apt-get -y update && apt-get install -y fortunes
-CMD /usr/games/fortune -a | cowsay
+MAINTAINER Misa Ogura misa.ogura01@gmail.com
 
+ENTRYPOINT ["cowsay"]
+CMD ["SHIP IT!!!"]

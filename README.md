@@ -1,12 +1,3 @@
-### Dockerfile
-```
-FROM docker/whalesay:latest
-MAINTAINER Misa Ogura misa.ogura01@gmail.com
-
-ENTRYPOINT ["cowsay"]
-CMD ["SHIP IT!!!"]
-```
------
 ### Instruction
 1. [Download & install Docker](https://docs.docker.com/engine/getstarted/step_one/#step-1-get-docker)
 

@@ -8,8 +8,9 @@ CMD ["SHIP IT!!!"]
 ```
 -----
 ### Instruction
-1. Pull & run the programme without any input - whale will say the default message "SHIP IT!!!"
-`$ docker run misaogura/whalesay`
+1. [Download & install Docker](https://docs.docker.com/engine/getstarted/step_one/#step-1-get-docker)
+
+2. Pull & run the programme without any input - default message is "SHIP IT!!!" : `$ docker run misaogura/whalesay`
 ```
  _
  ____________
@@ -28,8 +29,7 @@ CMD ["SHIP IT!!!"]
           \____\______/
 ```
 
-2. Make the whale say something
-`$ docker run misaogura/whalesay "SHIP IT REAL GOOD\!\!\!"`
+2. Make the whale say something : `$ docker run misaogura/whalesay "SHIP IT REAL GOOD\!\!\!"`
 
 ```
  ______________________

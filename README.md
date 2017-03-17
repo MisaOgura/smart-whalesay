@@ -49,6 +49,7 @@ CMD ["SHIP IT!!!"]
 ```
 -----
 ### Links
+- try out a wiser version of whalesay: https://github.com/MisaOgura/wise-whalesay
 - docker/whalesay repo : https://hub.docker.com/r/docker/whalesay/
 - Docker tutorial: https://docs.docker.com/engine/getstarted/
 -----
